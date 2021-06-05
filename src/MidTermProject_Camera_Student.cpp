@@ -65,8 +65,8 @@ int main(int argc, const char* argv[]) {
     float avgKeypointSize = 0;
     float avgKeyPointAndDescriptorTime = 0;
 
-    string detectorType = "FAST";           // SHITOMASI< HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
-    string descriptorType = "FREAK";        // BRIEF, ORB, FREAK, AKAZE, SIFT
+    string detectorType = "SHITOMASI";      // SHITOMASI, HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
+    string descriptorType = "BRISK";        // BRIEF, BRISK, ORB, FREAK, AKAZE, SIFT
     string descriptorClass = "DES_BINARY";  // DES_BINARY, DES_HOG
 
     /* MAIN LOOP OVER ALL IMAGES */
